@@ -27,8 +27,10 @@
     }
   },
   "Home": {
-    "title": "AI 驱动的开发平台",
-    "description": "专为提升您的开发效率而打造。使用 AI 辅助构建软件的最佳方式。",
+    "title": "Next Forge",
+    "tagLine": "多语言 Next.js 15 启动模板",
+    "description": "一个现代化、功能丰富的 Next.js 15 多语言启动模板，旨在帮助开发者快速构建具有内置国际化支持的全球化网站。",
+    "badge": "全新：AI 驱动开发",
     "downloadButton": "免费下载",
     "learnMore": "了解更多",
     "heroImagePlaceholder": "产品演示占位符",
@@ -36,6 +38,7 @@
     "features": {
       "title": "更快地构建软件",
       "subtitle": "智能、快速、熟悉。使用 AI 编程的最佳方式。",
+      "badge": "强大功能",
       "viewAllFeatures": "查看所有功能",
       "feature1": {
         "title": "闪电般快速",
@@ -65,6 +68,7 @@
     "testimonials": {
       "title": "受到全球开发者喜爱",
       "subtitle": "世界各地的开发者正在使用我们的平台构建令人惊叹的项目。",
+      "badge": "客户故事",
       "testimonial1": {
         "content": "这个平台彻底改变了我们的开发工作流程。AI 辅助功能令人难以置信。",
         "author": "陈莎拉",
@@ -99,6 +103,7 @@
     "cta": {
       "title": "立即试用我们的平台",
       "description": "加入数千名已经在使用我们的 AI 驱动平台构建令人惊叹项目的开发者。",
+      "badge": "准备开始了吗？",
       "downloadButton": "免费开始",
       "learnMore": "查看文档"
     }

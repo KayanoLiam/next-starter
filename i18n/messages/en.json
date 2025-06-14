@@ -27,8 +27,10 @@
     }
   },
   "Home": {
-    "title": "The AI-Powered Development Platform",
-    "description": "Built to make you extraordinarily productive. The best way to build software with AI assistance.",
+    "title": "Next Forge",
+    "tagLine": "Multilingual Next.js 15 Starter",
+    "description": "A modern, feature-rich Next.js 15 multilingual starter template designed to help developers quickly build globally-ready websites with built-in internationalization support.",
+    "badge": "New: AI-Powered Development",
     "downloadButton": "Download for Free",
     "learnMore": "Learn More",
     "heroImagePlaceholder": "Product Demo Placeholder",
@@ -36,6 +38,7 @@
     "features": {
       "title": "Build software faster",
       "subtitle": "Smart, fast, and familiar. The best way to code with AI.",
+      "badge": "Powerful Features",
       "viewAllFeatures": "View All Features",
       "feature1": {
         "title": "Lightning Fast",
@@ -65,6 +68,7 @@
     "testimonials": {
       "title": "Loved by developers worldwide",
       "subtitle": "Developers around the world are building amazing projects with our platform.",
+      "badge": "Customer Stories",
       "testimonial1": {
         "content": "This platform has revolutionized our development workflow. The AI assistance is incredible.",
         "author": "Sarah Chen",
@@ -99,6 +103,7 @@
     "cta": {
       "title": "Try our platform today",
       "description": "Join thousands of developers who are already building amazing projects with our AI-powered platform.",
+      "badge": "Ready to Get Started?",
       "downloadButton": "Get Started Free",
       "learnMore": "View Documentation"
     }
