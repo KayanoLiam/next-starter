@@ -1,6 +1,7 @@
 import { headerLinks } from "@/components/header/HeaderLinks";
 import LocaleSwitcher from "@/components/LocaleSwitcher";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import AuthButton from "@/components/ui/auth-button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -21,6 +22,7 @@ export default function MobileMenu() {
   const tHeader = useTranslations("Header");
   return (
     <div className="flex items-center gap-x-2 md:hidden">
+      <AuthButton />
       <LocaleSwitcher />
       <ThemeToggle />
       <DropdownMenu>

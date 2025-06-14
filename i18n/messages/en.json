@@ -5,10 +5,12 @@
     "countdown": "Closing in {countdown} seconds"
   },
   "Header": {
-    "blogs": "Blogs",
-    "about": "About",
-    "sourceCode": "Source Code",
-    "proVersion": "Pro Version"
+    "Pricing": "Pricing",
+    "Features": "Features",
+    "Enterprise": "Enterprise",
+    "Blog": "Blog",
+    "Forum": "Forum",
+    "Careers": "Careers"
   },
   "Footer": {
     "Copyright": "Copyright © {year} Next Forge. All rights reserved.",
@@ -25,10 +27,81 @@
     }
   },
   "Home": {
-    "title": "Next Forge",
-    "tagLine": "Multilingual Next.js 15 Starter",
-    "description": "A multilingual Next.js 15 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation.",
-    "whoIsUsing": "Who is Using This Starter"
+    "title": "The AI-Powered Development Platform",
+    "description": "Built to make you extraordinarily productive. The best way to build software with AI assistance.",
+    "downloadButton": "Download for Free",
+    "learnMore": "Learn More",
+    "heroImagePlaceholder": "Product Demo Placeholder",
+    "trustedBy": "Trusted by engineers at",
+    "features": {
+      "title": "Build software faster",
+      "subtitle": "Smart, fast, and familiar. The best way to code with AI.",
+      "viewAllFeatures": "View All Features",
+      "feature1": {
+        "title": "Lightning Fast",
+        "description": "Optimized performance with Next.js 15 and modern development tools."
+      },
+      "feature2": {
+        "title": "Global Ready",
+        "description": "Built-in internationalization support for worldwide deployment."
+      },
+      "feature3": {
+        "title": "Developer Friendly",
+        "description": "Clean code architecture with TypeScript and modern best practices."
+      },
+      "feature4": {
+        "title": "Beautiful Design",
+        "description": "Responsive design with dark/light mode and customizable themes."
+      },
+      "feature5": {
+        "title": "Secure by Default",
+        "description": "Security best practices built-in with privacy-first approach."
+      },
+      "feature6": {
+        "title": "Production Ready",
+        "description": "Optimized for deployment with SEO and performance in mind."
+      }
+    },
+    "testimonials": {
+      "title": "Loved by developers worldwide",
+      "subtitle": "Developers around the world are building amazing projects with our platform.",
+      "testimonial1": {
+        "content": "This platform has revolutionized our development workflow. The AI assistance is incredible.",
+        "author": "Sarah Chen",
+        "company": "TechCorp"
+      },
+      "testimonial2": {
+        "content": "The best development experience I've had. Clean, fast, and incredibly productive.",
+        "author": "Mike Johnson",
+        "company": "StartupXYZ"
+      },
+      "testimonial3": {
+        "content": "Amazing platform! The internationalization features saved us months of work.",
+        "author": "Elena Rodriguez",
+        "company": "GlobalTech"
+      },
+      "testimonial4": {
+        "content": "The code quality and architecture are outstanding. Perfect for enterprise projects.",
+        "author": "David Kim",
+        "company": "Enterprise Inc"
+      },
+      "testimonial5": {
+        "content": "Love the developer experience. Everything just works out of the box.",
+        "author": "Anna Smith",
+        "company": "DevStudio"
+      },
+      "testimonial6": {
+        "content": "This has become our go-to platform for all new projects. Highly recommended!",
+        "author": "Tom Wilson",
+        "company": "Innovation Labs"
+      }
+    },
+    "cta": {
+      "title": "Try our platform today",
+      "description": "Join thousands of developers who are already building amazing projects with our AI-powered platform.",
+      "downloadButton": "Get Started Free",
+      "learnMore": "View Documentation"
+    }
   },
   "Blogs": {
     "title": "Blog Posts",
@@ -45,5 +118,75 @@
   "PrivacyPolicy": {
     "title": "Privacy Policy",
     "description": "Privacy Policy"
+  },
+  "Pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the perfect plan for your needs",
+    "description": "Flexible pricing plans designed to scale with your business",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "discount": "20% off",
+    "popular": "Most Popular",
+    "free": "Free",
+    "month": "month",
+    "year": "year",
+    "includes": "What's included",
+    "trustedBy": "Trusted by engineers at",
+    "enterprise": {
+      "question": "Questions about enterprise security, procurement, or custom contracts?",
+      "contact": "Contact Sales"
+    },
+    "hobby": {
+      "description": "Perfect for getting started",
+      "feature1": "2-week Pro trial",
+      "feature2": "2,000 completions",
+      "feature3": "50 slow premium requests",
+      "button": "Get Started"
+    },
+    "pro": {
+      "description": "Everything in Hobby, plus",
+      "feature1": "Unlimited completions",
+      "feature2": "500 fast premium requests per month",
+      "feature3": "Unlimited slow premium requests",
+      "feature4": "Priority support",
+      "button": "Start Pro"
+    },
+    "business": {
+      "description": "Everything in Pro, plus",
+      "feature1": "Privacy mode enforced for entire organization",
+      "feature2": "Centralized billing for teams",
+      "feature3": "Admin usage dashboard",
+      "feature4": "SAML/OIDC SSO",
+      "button": "Start Business"
+    },
+    "faq": {
+      "q1": {
+        "question": "Why isn't this completely free?",
+        "answer": "Running large language models costs significant money. We need to cover those costs to provide a sustainable, high-quality service."
+      },
+      "q2": {
+        "question": "What are premium models?",
+        "answer": "Premium models include GPT-4, GPT-4o, Claude 3.5/3.7 Sonnet, and more. You get 500 fast requests and unlimited slow requests per month."
+      },
+      "q3": {
+        "question": "Who owns the code generated by our service?",
+        "answer": "You do! Whether you're on Free, Pro, or Business, all generated code belongs to you and can be used for any purpose, including commercial."
+      },
+      "q4": {
+        "question": "What's the difference between fast and slow requests?",
+        "answer": "Fast requests for premium models are prioritized in our backend. If you hit the fast limit on Pro, you can still use premium models but may experience queuing during high load."
+      },
+      "q5": {
+        "question": "How do the limits work for each plan?",
+        "answer": "If you exceed limits, we may ask you to upgrade. Premium models are available for up to 50 free uses."
+      },
+      "q6": {
+        "question": "What code is stored?",
+        "answer": "With 'Privacy Mode' enabled, no code leaves your machine and isn't used for training. Otherwise, we may collect usage and telemetry for service improvement."
+      },
+      "moreQuestions": "Have more questions?",
+      "forum": "Join our Forum",
+      "contact": "Contact Us"
+    }
   }
 }

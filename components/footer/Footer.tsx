@@ -158,56 +158,53 @@ const footerLinks: FooterLink[] = [
     ],
   },
   {
-    title: "Open Source",
+    title: "Resources",
     links: [
       {
-        href: "https://github.com/weijunext/nextjs-15-starter",
-        label: "Next Forge",
-        rel: "noopener noreferrer nofollow",
-        target: "_blank",
+        href: "#",
+        label: "Docs",
       },
       {
-        href: "https://github.com/weijunext/landing-page-boilerplate",
-        label: "Landing Page Boilerplate",
-        rel: "noopener noreferrer nofollow",
-        target: "_blank",
+        href: "#",
+        label: "Blog",
       },
       {
-        href: "https://github.com/weijunext/weekly-boilerplate",
-        label: "Blog Boilerplate",
-        rel: "noopener noreferrer nofollow",
-        target: "_blank",
+        href: "#",
+        label: "Forum",
       },
+      {
+        href: "#",
+        label: "Changelog",
+      }
     ],
   },
   {
-    title: "Other Products",
+    title: "Company",
     links: [
       {
-        href: "https://nexty.dev/",
-        label: "Nexty - SaaS Template",
-        rel: "noopener noreferrer",
-        target: "_blank",
+        href: "#",
+        label: "Anysphere",
       },
       {
-        href: "https://ntab.dev/",
-        label: "nTab",
-        rel: "noopener noreferrer",
-        target: "_blank",
+        href: "#",
+        label: "Careers",
       },
       {
-        href: "https://ogimage.click/",
-        label: "OG Image Generator",
-        rel: "noopener noreferrer",
-        target: "_blank",
+        href: "#",
+        label: "Community",
       },
+      {
+        href: "#",
+        label: "Customers",
+      }
     ],
   },
   {
-    title: "Legal & Privacy",
+    title: "Legal",
     links: [
-      { href: "/privacy-policy", label: "Privacy Policy" },
-      { href: "/terms-of-service", label: "Terms of Service" },
+      { href: "#", label: "Terms" },
+      { href: "#", label: "Security" },
+      { href: "#", label: "Privacy" },
     ],
   },
 ];

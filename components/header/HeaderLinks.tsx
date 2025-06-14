@@ -1,29 +1,32 @@
-import { PRO_VERSION, SOURCE_CODE_URL } from "@/config/site";
 import { Link as I18nLink } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 
 export const headerLinks = [
   {
-    name: "blogs",
+    name: "Pricing",
+    href: "/pricing",
+  },
+  {
+    name: "Features",
+    href: "/features",
+  },
+  {
+    name: "Enterprise",
+    href: "/enterprise",
+  },
+  {
+    name: "Blog",
     href: "/blogs",
   },
   {
-    name: "about",
-    href: "/about",
+    name: "Forum",
+    href: "/forum",
   },
   {
-    name: "sourceCode",
-    href: SOURCE_CODE_URL,
-    target: "_blank",
-    rel: "noopener noreferrer nofollow",
+    name: "Careers",
+    href: "/careers",
   },
-  {
-    name: "proVersion",
-    href: PRO_VERSION,
-    target: "_blank",
-    rel: "noopener noreferrer",
-  },
-];
+] as const;
 
 const HeaderLinks = () => {
   const tHeader = useTranslations("Header");
@@ -37,8 +40,6 @@ const HeaderLinks = () => {
           href={link.href}
           title={tHeader(link.name)}
           prefetch={false}
-          target={link.target || "_self"}
-          rel={link.rel || undefined}
           className="mx-2 hover:underline"
         >
           {tHeader(link.name)}

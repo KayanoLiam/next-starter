@@ -5,10 +5,12 @@
     "countdown": "将在 {countdown} 秒后关闭"
   },
   "Header": {
-    "blogs": "博客",
-    "about": "关于",
-    "sourceCode": "源码",
-    "proVersion": "专业版"
+    "Pricing": "定价",
+    "Features": "功能",
+    "Enterprise": "企业版",
+    "Blog": "博客",
+    "Forum": "论坛",
+    "Careers": "招聘"
   },
   "Footer": {
     "Copyright": "版权所有 © {year} Next Forge。保留所有权利。",
@@ -25,10 +27,81 @@
     }
   },
   "Home": {
-    "title": "Next Forge",
-    "tagLine": "Next.js 多语言启动模板",
-    "description": "内置多语言支持的 Next.js 15 启动模板，助您快速构建面向全球的出海网站。简洁高效，开箱即用，完全优化的SEO基础架构。",
-    "whoIsUsing": "谁在使用此模板"
+    "title": "AI 驱动的开发平台",
+    "description": "专为提升您的开发效率而打造。使用 AI 辅助构建软件的最佳方式。",
+    "downloadButton": "免费下载",
+    "learnMore": "了解更多",
+    "heroImagePlaceholder": "产品演示占位符",
+    "trustedBy": "受到以下公司工程师信赖",
+    "features": {
+      "title": "更快地构建软件",
+      "subtitle": "智能、快速、熟悉。使用 AI 编程的最佳方式。",
+      "viewAllFeatures": "查看所有功能",
+      "feature1": {
+        "title": "闪电般快速",
+        "description": "使用 Next.js 15 和现代开发工具优化性能。"
+      },
+      "feature2": {
+        "title": "全球化就绪",
+        "description": "内置国际化支持，可在全球范围内部署。"
+      },
+      "feature3": {
+        "title": "开发者友好",
+        "description": "使用 TypeScript 和现代最佳实践的清洁代码架构。"
+      },
+      "feature4": {
+        "title": "精美设计",
+        "description": "响应式设计，支持深色/浅色模式和可定制主题。"
+      },
+      "feature5": {
+        "title": "默认安全",
+        "description": "内置安全最佳实践，隐私优先的方法。"
+      },
+      "feature6": {
+        "title": "生产就绪",
+        "description": "针对部署进行优化，考虑 SEO 和性能。"
+      }
+    },
+    "testimonials": {
+      "title": "受到全球开发者喜爱",
+      "subtitle": "世界各地的开发者正在使用我们的平台构建令人惊叹的项目。",
+      "testimonial1": {
+        "content": "这个平台彻底改变了我们的开发工作流程。AI 辅助功能令人难以置信。",
+        "author": "陈莎拉",
+        "company": "科技公司"
+      },
+      "testimonial2": {
+        "content": "我体验过的最佳开发体验。干净、快速、极其高效。",
+        "author": "迈克·约翰逊",
+        "company": "创业公司XYZ"
+      },
+      "testimonial3": {
+        "content": "令人惊叹的平台！国际化功能为我们节省了数月的工作。",
+        "author": "埃琳娜·罗德里格斯",
+        "company": "全球科技"
+      },
+      "testimonial4": {
+        "content": "代码质量和架构都很出色。非常适合企业项目。",
+        "author": "大卫·金",
+        "company": "企业公司"
+      },
+      "testimonial5": {
+        "content": "喜欢这种开发体验。一切都开箱即用。",
+        "author": "安娜·史密斯",
+        "company": "开发工作室"
+      },
+      "testimonial6": {
+        "content": "这已经成为我们所有新项目的首选平台。强烈推荐！",
+        "author": "汤姆·威尔逊",
+        "company": "创新实验室"
+      }
+    },
+    "cta": {
+      "title": "立即试用我们的平台",
+      "description": "加入数千名已经在使用我们的 AI 驱动平台构建令人惊叹项目的开发者。",
+      "downloadButton": "免费开始",
+      "learnMore": "查看文档"
+    }
   },
   "Blogs": {
     "title": "博客列表",
@@ -45,5 +118,75 @@
   "PrivacyPolicy": {
     "title": "隐私政策",
     "description": "隐私政策"
+  },
+  "Pricing": {
+    "title": "定价方案",
+    "subtitle": "选择最适合您需求的方案",
+    "description": "灵活的定价方案，随您的业务扩展",
+    "monthly": "月付",
+    "yearly": "年付",
+    "discount": "8折优惠",
+    "popular": "最受欢迎",
+    "free": "免费",
+    "month": "月",
+    "year": "年",
+    "includes": "包含功能",
+    "trustedBy": "受到以下公司工程师信赖",
+    "enterprise": {
+      "question": "对企业安全、采购或定制合同有疑问？",
+      "contact": "联系销售"
+    },
+    "hobby": {
+      "description": "适合入门使用",
+      "feature1": "2周专业版试用",
+      "feature2": "2,000次补全",
+      "feature3": "50次慢速高级请求",
+      "button": "开始使用"
+    },
+    "pro": {
+      "description": "包含入门版所有功能，另外还有",
+      "feature1": "无限次补全",
+      "feature2": "每月500次快速高级请求",
+      "feature3": "无限次慢速高级请求",
+      "feature4": "优先支持",
+      "button": "开始专业版"
+    },
+    "business": {
+      "description": "包含专业版所有功能，另外还有",
+      "feature1": "整个组织强制隐私模式",
+      "feature2": "团队集中计费",
+      "feature3": "管理员使用情况仪表板",
+      "feature4": "SAML/OIDC 单点登录",
+      "button": "开始商业版"
+    },
+    "faq": {
+      "q1": {
+        "question": "为什么不完全免费？",
+        "answer": "运行大型语言模型需要大量成本。我们需要覆盖这些成本来提供可持续的高质量服务。"
+      },
+      "q2": {
+        "question": "什么是高级模型？",
+        "answer": "高级模型包括 GPT-4、GPT-4o、Claude 3.5/3.7 Sonnet 等。您每月可获得500次快速请求和无限次慢速请求。"
+      },
+      "q3": {
+        "question": "我们服务生成的代码归谁所有？",
+        "answer": "归您所有！无论您使用免费版、专业版还是商业版，所有生成的代码都属于您，可用于任何目的，包括商业用途。"
+      },
+      "q4": {
+        "question": "快速请求和慢速请求有什么区别？",
+        "answer": "高级模型的快速请求在我们的后端优先处理。如果您在专业版中达到快速限制，仍可使用高级模型，但在高负载时可能需要排队。"
+      },
+      "q5": {
+        "question": "每个方案的限制如何工作？",
+        "answer": "如果您超出限制，我们可能会要求您升级。高级模型最多可免费使用50次。"
+      },
+      "q6": {
+        "question": "存储什么代码？",
+        "answer": "启用「隐私模式」后，代码不会离开您的机器，也不会用于训练。否则，我们可能会收集使用情况和遥测数据以改进服务。"
+      },
+      "moreQuestions": "还有更多问题？",
+      "forum": "加入我们的论坛",
+      "contact": "联系我们"
+    }
   }
 }
